@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
-// Importar código
-/* import { calculateAverage } from './average'; */
+import { calculateAverage } from '../stage-2/calculate-average';
 
 describe('calculateAverage', () => {
   it('should correctly calculate the average of three whole marks', () => {
